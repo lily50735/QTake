@@ -1,0 +1,17 @@
+{
+  "name": "QTake",
+  "version": "1.0.0",
+  "homepage": "/html/index.html",
+  "authors": [
+    "Ching-Wen Yu"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}
