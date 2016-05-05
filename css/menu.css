@@ -1,6 +1,6 @@
 body{
     font-family: Ping Fang medium;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 a, a:hover{
@@ -11,109 +11,72 @@ ul, li{
     list-style-type: none;
 }
 
-.main{
-    top: 80px;
-    padding-top: 20px;
-}
-@media (min-width: 768px) {
-  .main {
-    padding-right: 40px;
-    padding-left: 40px;
-  }
-}
-.navbar-right{
-    padding-top: 20px;
-}
-.main .page-header {
-  margin-top: 0;
-}
-.sidebar {
-  display: none;
-}
-@media (min-width: 768px) {
-  .sidebar {
-    position: fixed;
-    top: 120px;
-    bottom: 0;
-    left: 0;
-    z-index: 1000;
-    display: block;
-    padding: 20px;
-    overflow-x: hidden;
-    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-    background-color: #f5f5f5;
-    border-right: 1px solid #eee;
-  }
-}
-.float{
-    float: left;
-}
-.nav-sidebar {
-  margin-right: -21px; /* 20px padding + 1px border */
-  margin-bottom: 20px;
-  margin-left: -20px;
-}
-.nav-sidebar > li > a {
-  padding-right: 20px;
-  padding-left: 20px;
-}
-.nav-sidebar > .active > a,
-.nav-sidebar > .active > a:hover,
-.nav-sidebar > .active > a:focus {
-  color: #fff;
-  background-color: #428bca;
-}
-.navbar-header p{
-    padding-left: 35px;
-}
-
-.foodDetail> .row{
-    margin-left: 5px;
-    width:90%;
-    border: 0.5px solid #ccc;
-
-}
-.foodDetail p{
-    padding-top: 10px;
-}
 .navbar{
-    float:left;
     background: #fff;
+    height: 100px;
+}
+#navbar a{
+     line-height: 70px;
+     font-size: 1.3em;
+}
+#navbar span{
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 .navbar-header  img{
-    width: 180px;
+    height: 70px;
+}
+.main{
+    margin-top: 40px;
+}
+.restuarent {
+    border-radius: 5px;
+    font-size: 1.1em;
+    position: relative;
+    height: auto;
+    height: 261px;
+    overflow: hidden;
+}
+.info p{
+    padding-left: 10%;
 
 }
-.reconmmendation{
-    padding-top: 10px;
+.rest-title {
+    font-size: 1.7em;
+    padding-top: 30px;
+    padding-left: 10%;
+    position: relative;
+    z-index: 2;
 }
-.foodImg{
+
+.restuarent img {
+    position: absolute;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
     width: 90%;
-    background: pink;
+    border-radius: 5px;
+    opacity: 0.6;
 }
-.foodImg img{
-    width: 100%;
+.info{
+    padding-top: 15px;
+    padding-left: 10%;
+    z-index: 3;
 }
-.tag{
-    display:none;
-    background: grey;
-    margin-top:0;
-    margin-right: 5%;
-    width: 10%;
+.info-left, .info-right{
+    float: left;
 }
-.tag img{
-    width: 100%;
+.info-left{
+    min-width: 300px;
 }
-.optionTitle{
-    padding-left: 20px;
-}
-.foodOption {
-    padding-top: 20px;
-}
-.foodOption img{
-    width:100%;
-}
-.foodOption p{
-    font-size: 1.5em;
-    font-weight: bold;
+@media (max-width: 768px) {
+    .restuarent img{
+        position: relative;
+    }
+    .info-left, .info-right{
+        float: none;
+    }
 }
