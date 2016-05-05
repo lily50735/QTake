@@ -91,5 +91,12 @@ nav{
     }
 }
 .nav-tabs{
+    width: 100%;
+    text-align: center;
     font-size: 1.2em;
 }
+.nav-tabs > li {
+    float: none;
+    display: inline-block;
+}
+
