@@ -1,6 +1,6 @@
 body{
     font-family: Ping Fang medium;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 a, a:hover{
@@ -10,110 +10,139 @@ a, a:hover{
 ul, li{
     list-style-type: none;
 }
-
-.main{
-    top: 80px;
-    padding-top: 20px;
-}
-@media (min-width: 768px) {
-  .main {
-    padding-right: 40px;
-    padding-left: 40px;
-  }
-}
-.navbar-right{
-    padding-top: 20px;
-}
-.main .page-header {
-  margin-top: 0;
-}
-.sidebar {
-  display: none;
-}
-@media (min-width: 768px) {
-  .sidebar {
-    position: fixed;
-    top: 120px;
-    bottom: 0;
-    left: 0;
-    z-index: 1000;
-    display: block;
-    padding: 20px;
-    overflow-x: hidden;
-    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-    background-color: #f5f5f5;
-    border-right: 1px solid #eee;
-  }
-}
-.float{
-    float: left;
-}
-.nav-sidebar {
-  margin-right: -21px; /* 20px padding + 1px border */
-  margin-bottom: 20px;
-  margin-left: -20px;
-}
-.nav-sidebar > li > a {
-  padding-right: 20px;
-  padding-left: 20px;
-}
-.nav-sidebar > .active > a,
-.nav-sidebar > .active > a:hover,
-.nav-sidebar > .active > a:focus {
-  color: #fff;
-  background-color: #428bca;
-}
-.navbar-header p{
-    padding-left: 35px;
-}
-
-.foodDetail> .row{
-    margin-left: 5px;
-    width:90%;
-    border: 0.5px solid #ccc;
-
-}
-.foodDetail p{
-    padding-top: 10px;
+nav{
+    height:100px;
 }
 .navbar{
-    float:left;
     background: #fff;
 }
-.navbar-header  img{
-    width: 180px;
+
+#navbar a{
+     line-height: 70px;
+     font-size: 1.3em;
+}
+#navbar span{
+    padding-top: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.navbar-header img{
+    height: 70px;
+}
+.main{
+    margin-top: 40px;
+}
+.rest-info {
+    border-radius: 5px;
+    font-size: 1.1em;
+    position: relative;
+    height: auto;
+    height: 261px;
+}
+.info p{
+    padding-left: 10%;
 
 }
-.reconmmendation{
-    padding-top: 10px;
+.rest-title {
+    font-size: 1.7em;
+    padding-top: 30px;
+    padding-left: 10%;
+    position: relative;
+    z-index: 2;
+    color: #fff;
 }
-.foodImg{
+
+.rest-info img {
+    position: absolute;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
     width: 90%;
-    background: pink;
+    border-radius: 5px;
 }
-.foodImg img{
+.info{
+    position: relative;
+    padding-top: 15px;
+    padding-left: 10%;
+    z-index: 3;
+    color:#fff;
+}
+.info-left, .info-right{
+    float: left;
+}
+.info-left{
+    min-width: 300px;
+}
+.like{
+    position: absolute;
+    top:5px;
+    right:6%;
+
+}
+.like a{
+    color: #fff;
+}
+@media (max-width: 768px) {
+    .rest-info img{
+        position: relative;
+    }
+    .info-left, .info-right{
+        float: none;
+    }
+}
+.nav-tabs{
+
     width: 100%;
+    text-align: center;
+    font-size: 1.3em;
 }
-.tag{
-    display:none;
-    background: grey;
-    margin-top:0;
-    margin-right: 5%;
-    width: 10%;
+.nav-tabs > li {
+    float: none;
+    display: inline-block;
 }
-.tag img{
-    width: 100%;
+.nav-foodtype{
+    position: relative;
+    z-index: -2;
 }
-.optionTitle{
-    padding-left: 20px;
+.nav-display{
+    position: absolute;
+    top:0;
+    right:0;
+    width: 200px;
 }
-.foodOption {
+.itemGroups{
+    margin-left: 40px;
+    width: 90%;
+}
+.groupTitle{
+    padding-left: 50px;
+
+}
+.item{
     padding-top: 20px;
+    padding-left: 0px;
 }
-.foodOption img{
-    width:100%;
+.item img{
+    width: 100%;
+
+    border-radius: 5px;
 }
-.foodOption p{
-    font-size: 1.5em;
-    font-weight: bold;
+.item p{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 1.2em;
+}
+.itemlist{
+  width:80%;
+}
+@media (max-width: 480px){
+    .col-xs-9{
+        position: relative;
+        margin-left: 50%;
+        margin-right: 50%;
+        float: none;
+
+    }
 }

@@ -1,0 +1,10 @@
+.itemlist input{
+  width: 50px;
+}
+
+.itemlist tr td:first-child{
+  width: 75%;
+}
+.itemlist tr td:last-child{
+  width: 100px;
+}
