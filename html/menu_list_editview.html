@@ -7,6 +7,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/menu.css">
+        <link rel="stylesheet" href="../css/menu_list.css">
+        <link rel="stylesheet" href="../css/menu_list_editview.css">
     </head>
     <body>
         <!-- Fixed navbar -->
@@ -70,72 +72,75 @@
                     </ul>
                 </div>
             </nav>
-            <div class="row itemGroups">
-                <div class="groupTitle">
-                    <h4>包・餃</h4>
-                </div>
-                <div class="item col-xs-9 col-sm-4">
-                    <img src="../img/bun1.jpg" alt="">
-                    <p>奶黃包<br/>$10</p>
-                </div>
-                <div class="item col-xs-9 col-sm-4">
-                    <img src="../img/bun2.jpg" alt="">
-                    <p>小籠包<br/>$10</p>
-                </div>
-                <div class="item col-xs-9 col-sm-4">
-                    <img src="../img/bun3.jpg" alt="">
-                    <p>八色包<br/>$10</p>
-                </div>
+            <div class="container itemlist">
+              <table class="table table-striped table-bordered">
+                <caption>包・餃</caption>
+                <tr>
+                  <td>奶黃包</td>
+                  <td>$10</td>
+                  <td><i class="fa fa-minus-circle" aria-hidden="true"></i>  <input type="text">  <i class="fa fa-plus-circle" aria-hidden="true"></i> </td>
+                </tr>
+                <tr>
+                  <td>小籠包</td>
+                  <td>$10</td>
+                  <td><i class="fa fa-minus-circle" aria-hidden="true"></i>  <input type="text">  <i class="fa fa-plus-circle" aria-hidden="true"></i> </td>
+                </tr>
+                <tr>
+                  <td>八色包</td>
+                  <td>$10</td>
+                  <td><i class="fa fa-minus-circle" aria-hidden="true"></i>  <input type="text">  <i class="fa fa-plus-circle" aria-hidden="true"></i> </td>
+                </tr>
+              </table>
+              <table class="table table-striped table-bordered">
+                <caption>湯品</caption>
+                <tr>
+                  <td>酸辣湯</td>
+                  <td>$10</td>
+                  <td><i class="fa fa-minus-circle" aria-hidden="true"></i>  <input type="text">  <i class="fa fa-plus-circle" aria-hidden="true"></i> </td>
+                </tr>
+                <tr>
+                  <td>玉米濃湯</td>
+                  <td>$10</td>
+                  <td><i class="fa fa-minus-circle" aria-hidden="true"></i>  <input type="text">  <i class="fa fa-plus-circle" aria-hidden="true"></i> </td>
+                </tr>
+                <tr>
+                  <td>貢丸湯</td>
+                  <td>$10</td>
+                  <td><i class="fa fa-minus-circle" aria-hidden="true"></i>  <input type="text">  <i class="fa fa-plus-circle" aria-hidden="true"></i> </td>
+                </tr>
+              </table>
+              <table class="table table-striped table-bordered">
 
-            </div>
-            <div class="row itemGroups">
-                <div class="groupTitle">
-                    <h4>湯品</h4>
-                </div>
-                <div class="item col-xs-9 col-sm-4">
-                    <img src="../img/soup1.jpg" alt="">
-                    <p>酸辣湯<br/>$10</p>
-                </div>
-                <div class="item col-xs-9 col-sm-4">
-                    <img src="../img/soup2.jpg" alt="">
-                    <p>玉米濃湯<br/>$10</p>
-                </div>
-                <div class="item col-xs-9 col-sm-4">
-                    <img src="../img/soup3.jpg" alt="">
-                    <p>貢丸湯<br/>$10</p>
-                </div>
-
-            </div>
-            <div class="row itemGroups">
-                <div class="groupTitle">
-                    <h4>餅類</h4>
-                </div>
-                <div class="item col-xs-9 col-sm-4">
-                    <img src="../img/pie1.jpg" alt="">
-                    <p>蔥油餅<br/>$10</p>
-                </div>
-                <div class="item col-xs-9 col-sm-4">
-                    <img src="../img/pie2.jpg" alt="">
-                    <p>牛肉餡餅<br/>$10</p>
-                </div>
-
-            </div>
-            <div class="row itemGroups">
-                <div class="groupTitle">
-                    <h4>飲料</h4>
-                </div>
-                <div class="item col-xs-9 col-sm-4">
-                    <img src="../img/drink1.jpg" alt="">
-                    <p>豆漿<br/>$12</p>
-                </div>
-                <div class="item col-xs-9 col-sm-4">
-                    <img src="../img/drink2.jpg" alt="">
-                    <p>仙草茶<br/>$10</p>
-                </div>
-                <div class="item col-xs-9 col-sm-4">
-                    <img src="../img/drink3.jpg" alt="">
-                    <p>酸梅湯<br/>$15</p>
-                </div>
+                <caption>餅類</caption>
+                <tr>
+                  <td>蔥油餅</td>
+                  <td>$10</td>
+                  <td><i class="fa fa-minus-circle" aria-hidden="true"></i>  <input type="text">  <i class="fa fa-plus-circle" aria-hidden="true"></i> </td>
+                </tr>
+                <tr>
+                  <td>牛肉餡餅</td>
+                  <td>$10</td>
+                  <td><i class="fa fa-minus-circle" aria-hidden="true"></i>  <input type="text">  <i class="fa fa-plus-circle" aria-hidden="true"></i> </td>
+                </tr>
+              </table>
+              <table class="table table-striped table-bordered">
+                <caption>飲料</caption>
+                <tr>
+                  <td>豆漿</td>
+                  <td>$12</td>
+                  <td><i class="fa fa-minus-circle" aria-hidden="true"></i>  <input type="text">  <i class="fa fa-plus-circle" aria-hidden="true"></i> </td>
+                </tr>
+                <tr>
+                  <td>仙草茶</td>
+                  <td>$10</td>
+                  <td><i class="fa fa-minus-circle" aria-hidden="true"></i>  <input type="text">  <i class="fa fa-plus-circle" aria-hidden="true"></i> </td>
+                </tr>
+                <tr>
+                  <td>酸梅湯</td>
+                  <td>$15</td>
+                  <td><i class="fa fa-minus-circle" aria-hidden="true"></i>  <input type="text">  <i class="fa fa-plus-circle" aria-hidden="true"></i> </td>
+                </tr>
+              </table>
             </div>
         </div><!--/.main -->
     <!-- Bootstrap core JavaScript

@@ -1,0 +1,17 @@
+.itemlist{
+  width:80%;
+}
+.itemlist caption{
+  margin-left: -5px;
+  font-size: 1.2em;
+}
+.itemlist tr td:first-child{
+  width: 60%;
+}
+.starbtn{
+  display: none;
+}
+.starbtn button{
+  margin: 0 auto;
+  display: none;
+}
