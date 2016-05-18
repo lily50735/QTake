@@ -6,12 +6,8 @@
   font-size: 1.2em;
 }
 .itemlist tr td:first-child{
-  width: 60%;
+  width: 90%;
 }
 .starbtn{
-  display: none;
-}
-.starbtn button{
-  margin: 0 auto;
   display: none;
 }
